@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Author: Dominique
+#Author: Evens
 
 #Date: March 15, 2022
 
@@ -39,4 +39,3 @@ systemctl status haproxy
 sleep 3
 
 echo -e "\nHaproxy has been successfully installed on your system, now you can setup your load balancer\n"
-                                                                                                              

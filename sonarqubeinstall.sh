@@ -1,10 +1,9 @@
 #!/bin/bash
 
-#Author: Group 10
+#Author: Evens
 #Date: Feb 22 2022
 
 echo "We are installing Sonarqube on CentOS7"
-
 
 sudo yum update -y
 

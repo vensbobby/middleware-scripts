@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Author : Dominique
+#Author : Evens
 #Date: 24 Feb 2022
 
 #This script is made by me to automate downloading docker from video
@@ -13,13 +13,7 @@ sleep 3
 
 sudo yum remove docker  docker-client docker-client-latest docker-common  docker-latest  docker-latest-logrotate docker-logrotate  docker-engine
 
-sleep 2
-
-echo "Now we are setting up the docker repository......"
-
 sleep 3
-
-
 
 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 
@@ -34,10 +28,6 @@ echo "Now we will install and set up the docker engine....please be patient! gra
 sleep 3
 sudo yum install docker-ce docker-ce-cli containerd.io -y
 sleep 2
-
-echo "Now we will start and enable the docker engine..."
-
- sleep 2
 
 systemctl start docker
 systemctl enable docker
